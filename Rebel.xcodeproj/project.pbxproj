@@ -15,6 +15,9 @@
 		30309E8E17228C1700BC2923 /* RBLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30309E8C17228C1700BC2923 /* RBLTableView.m */; };
 		303DEF4416D2B88700BD65C4 /* RBLShadowedTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 303DEF4216D2B88700BD65C4 /* RBLShadowedTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		303DEF4516D2B88700BD65C4 /* RBLShadowedTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DEF4316D2B88700BD65C4 /* RBLShadowedTextFieldCell.m */; };
+		30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30545A75178F80080032E57A /* RBLHoverDecorationTextView.h */; };
+		30545A78178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */; };
+		30545A79178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */; };
 		306A81DB1601C7A300BF45F3 /* RBLPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 306A81D91601C7A300BF45F3 /* RBLPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		306A81DC1601C7A300BF45F3 /* RBLPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 306A81DA1601C7A300BF45F3 /* RBLPopover.m */; };
 		306A81E81601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 306A81E61601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -163,6 +166,8 @@
 		30309E8C17228C1700BC2923 /* RBLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLTableView.m; sourceTree = "<group>"; };
 		303DEF4216D2B88700BD65C4 /* RBLShadowedTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLShadowedTextFieldCell.h; sourceTree = "<group>"; };
 		303DEF4316D2B88700BD65C4 /* RBLShadowedTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLShadowedTextFieldCell.m; sourceTree = "<group>"; };
+		30545A75178F80080032E57A /* RBLHoverDecorationTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLHoverDecorationTextView.h; sourceTree = "<group>"; };
+		30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLHoverDecorationTextView.m; sourceTree = "<group>"; };
 		306A81D91601C7A300BF45F3 /* RBLPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLPopover.h; sourceTree = "<group>"; };
 		306A81DA1601C7A300BF45F3 /* RBLPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLPopover.m; sourceTree = "<group>"; };
 		306A81E61601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+RBLBlockAdditions.h"; sourceTree = "<group>"; };
@@ -319,6 +324,8 @@
 				88347E6916F213C500872A0A /* RBLHTMLView.m */,
 				30309E8B17228C1700BC2923 /* RBLTableView.h */,
 				30309E8C17228C1700BC2923 /* RBLTableView.m */,
+				30545A75178F80080032E57A /* RBLHoverDecorationTextView.h */,
+				30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -536,6 +543,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */,
 				D0723FC215C5FA13004DBDC7 /* Rebel.h in Headers */,
 				D0723FC015C5F9D8004DBDC7 /* RBLView.h in Headers */,
 				D0723FC615C5FB68004DBDC7 /* NSColor+RBLCGColorAdditions.h in Headers */,
@@ -750,6 +758,7 @@
 				306A81E91601E92000BF45F3 /* CAAnimation+RBLBlockAdditions.m in Sources */,
 				D0E91C591603CC7600D23E93 /* RBLClipView.m in Sources */,
 				D011FD5F16239A8600A27946 /* NSImage+RBLResizableImageAdditions.m in Sources */,
+				30545A78178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */,
 				AB61F63716373FE000DD5D2C /* RBLTableCellView.m in Sources */,
 				B85EE8DF163ECA8C00265870 /* RBLViewController.m in Sources */,
 				B85EE8EA163ECF4C00265870 /* NSView+RBLViewControllerAdditions.m in Sources */,
@@ -778,6 +787,7 @@
 				D03D671B1677E2950041DDF2 /* NSAttributedString+RBLHTMLAdditionsSpec.m in Sources */,
 				03ECBD9816FD2E6800DA27D0 /* NSView+RBLAlignmentAdditionsSpec.m in Sources */,
 				884675FF16F2574200016B56 /* RBLHTMLViewSpec.m in Sources */,
+				30545A79178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */,
 				F63D7C78171D31010006515F /* RBLResizableImageSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
