@@ -16,7 +16,9 @@
 //
 // Caveats
 // -------
-// This currently only works with uneditable text views.
+// * Currently only works with uneditable text views.
+// * Breaks if the text is modified after any hover attributes are set.
+// * The behaviour of overlapping ranges is undefined.
 @interface RBLHoverDecorationTextView : NSTextView
 
 // Sets the attributes which will be applied to the text at the given range.
