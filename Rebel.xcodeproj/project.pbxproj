@@ -15,7 +15,7 @@
 		30309E8E17228C1700BC2923 /* RBLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30309E8C17228C1700BC2923 /* RBLTableView.m */; };
 		303DEF4416D2B88700BD65C4 /* RBLShadowedTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 303DEF4216D2B88700BD65C4 /* RBLShadowedTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		303DEF4516D2B88700BD65C4 /* RBLShadowedTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303DEF4316D2B88700BD65C4 /* RBLShadowedTextFieldCell.m */; };
-		30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30545A75178F80080032E57A /* RBLHoverDecorationTextView.h */; };
+		30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30545A75178F80080032E57A /* RBLHoverDecorationTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30545A78178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */; };
 		30545A79178F80080032E57A /* RBLHoverDecorationTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30545A76178F80080032E57A /* RBLHoverDecorationTextView.m */; };
 		306A81DB1601C7A300BF45F3 /* RBLPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 306A81D91601C7A300BF45F3 /* RBLPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -543,7 +543,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */,
 				D0723FC215C5FA13004DBDC7 /* Rebel.h in Headers */,
 				D0723FC015C5F9D8004DBDC7 /* RBLView.h in Headers */,
 				D0723FC615C5FB68004DBDC7 /* NSColor+RBLCGColorAdditions.h in Headers */,
@@ -562,6 +561,7 @@
 				AB10DB4D166EA9CA00AB7AB1 /* RBLScrollView.h in Headers */,
 				30309E8D17228C1700BC2923 /* RBLTableView.h in Headers */,
 				303DEF4416D2B88700BD65C4 /* RBLShadowedTextFieldCell.h in Headers */,
+				30545A77178F80080032E57A /* RBLHoverDecorationTextView.h in Headers */,
 				D088BEF916747D8F004B2665 /* NSFont+RBLFallbackAdditions.h in Headers */,
 				D03D67181677E13F0041DDF2 /* NSAttributedString+RBLHTMLAdditions.h in Headers */,
 				0396050A16E2DBA7007A5542 /* NSView+RBLAlignmentAdditions.h in Headers */,
