@@ -153,6 +153,7 @@ static IMP RBLViewDrawRectIMP;
 // Before 10.8, AppKit may destroy the view's layer when changing superviews
 // or windows, so reapply our properties when either of those events occur.
 - (void)viewDidMoveToSuperview {
+	[super viewDidMoveToSuperview];
 	[self applyLayerProperties];
 }
 
