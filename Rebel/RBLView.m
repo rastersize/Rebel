@@ -158,6 +158,7 @@ static IMP RBLViewDrawRectIMP;
 }
 
 - (void)viewDidMoveToWindow {
+	[super viewDidMoveToWindow];
 	[self applyLayerProperties];
 }
 
